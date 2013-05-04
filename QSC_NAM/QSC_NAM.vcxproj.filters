@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{c3e67a81-95ad-42e1-9d96-2e87af9f3c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoordinateHelper">
+      <UniqueIdentifier>{a3a1c886-878c-4e9b-a343-cf0a3ac119f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{d55c2f53-4e44-4639-88a0-7ceba060ce5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NAM">
+      <UniqueIdentifier>{99aed24b-f144-47d1-b4e4-183120b41d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoordinateHelper\Fragment">
+      <UniqueIdentifier>{e675b8f6-5a9a-4863-a271-8a4cf3a8cee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoordinateHelper\ArithmeticCode">
+      <UniqueIdentifier>{4bd50fff-d7d1-4be7-b7af-6bb4d45bab66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="datastruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorAddStr.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="dec2binstr.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="binstr2dec.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="DecompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="RNAMencoding.cpp">
+      <Filter>Source Files\NAM</Filter>
+    </ClCompile>
+    <ClCompile Include="IsHomogeneousBlock.cpp">
+      <Filter>Source Files\NAM</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowSegmentation.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="setPS.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="RNAMdecoding.cpp">
+      <Filter>Source Files\NAM</Filter>
+    </ClCompile>
+    <ClCompile Include="RefineImage.cpp">
+      <Filter>Source Files\NAM</Filter>
+    </ClCompile>
+    <ClCompile Include="PSNR.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="BPP.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files\CoordinateHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_dec2binstr.cpp">
+      <Filter>Source Files\CoordinateHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="advanced_binstr2dec.cpp">
+      <Filter>Source Files\CoordinateHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="calCodingPoint.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="isSameMat.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="copyMat.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="calFragNum.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="img2mat.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Fragment_CompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper\Fragment</Filter>
+    </ClCompile>
+    <ClCompile Include="Fragment_DecompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper\Fragment</Filter>
+    </ClCompile>
+    <ClCompile Include="AC_CompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="AC_DecompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ac.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ac_compress_array.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ac_decompress_array.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="AC_Fragment_CompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="AC_Fragment_DecompressCoordinate.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+    <ClCompile Include="calMaxNum.cpp">
+      <Filter>Source Files\CoordinateHelper\ArithmeticCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
